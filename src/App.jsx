@@ -1,6 +1,7 @@
 import ActividadReducer from './ActividadReducer'
 import './App.css'
 import EjemploUseReducer from './EjemploUseReducer'
+import ReducerActividad2 from './ReducerActividad2'
 import UseReducer from './UseReducer'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <h1>Hook useReducer</h1>
       {/* <UseReducer /> */}
       {/* <EjemploUseReducer /> */}
-      <ActividadReducer />
+      {/* <ActividadReducer /> */}
+      <ReducerActividad2 />
     </>
   )
 }
